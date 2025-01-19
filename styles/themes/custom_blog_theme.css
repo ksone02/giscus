@@ -377,7 +377,8 @@ main .gsc-comment-header {
 .gsc-comment-box {
   border: none;
   background-color: #fff;
-  margin-top: 12px;
+  margin-top: 12px !important;
+  width: auto;
 }
 
 .gsc-comment-box-tabs {
