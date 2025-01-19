@@ -301,12 +301,12 @@ main .gsc-comment-header {
 .gsc-replies {
   padding-top: 0;
   border: none;
-  margin: 0 20px;
+  margin: 0 0 0 20px;
   background-color: transparent;
 }
 
 .gsc-reply {
-  margin-top: 20px;
+  margin-top: 12px;
   padding: 20px;
   background-color: #f5f5f5;
   border: none;
@@ -347,8 +347,8 @@ main .gsc-comment-header {
   border-top-width: 0;
   border-end-end-radius: 16px;
   border-end-start-radius: 16px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 4px;
   padding-inline-start: 0px;
   padding-inline-end: 0px;
 }
@@ -371,7 +371,7 @@ main .gsc-comment-header {
 }
 
 .gsc-comment > div > :nth-child(5) {
-  margin: 0 20px;
+  margin: 0 0 0 20px;
 }
 
 .gsc-comment-box {
@@ -465,4 +465,63 @@ main .gsc-comment-header {
 .form-control:focus {
   box-shadow: none;
   border: 1px solid #e4e4e4 !important;
+}
+
+.gsc-comments {
+  gap: 16px;
+}
+
+.gsc-left-header {
+  gap: 8px;
+}
+
+.gsc-left-header > em {
+  display: none;
+}
+
+.gsc-left-header > h4 {
+  font-size: 14px;
+}
+
+.gsc-comments-count > a {
+  text-decoration: none !important;
+}
+
+.gsc-comments-count {
+  color: #555;
+  font-weight: 500;
+}
+
+.gsc-replies-count {
+  color: #555;
+}
+
+.gsc-main {
+  gap: 32px;
+}
+
+.gsc-reactions-count > a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+}
+
+.gsc-comment-box-buttons > button {
+  padding: 8px 12px !important;
+  border-radius: 16px !important;
+  border: none !important;
+  transition: all 0.2s ease;
+  background-color: #f5f5f5 !important;
+  box-shadow: none !important;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.gsc-comment-box-buttons > button:disabled {
+  color: #b9b9b9 !important;
+}
+
+.gsc-comment-box-buttons > button:nth-child(2):submit {
+  color: #b9b9b9 !important;
+  background-color: #ea5f20 !important;
 }
