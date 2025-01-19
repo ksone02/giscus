@@ -78,7 +78,7 @@ main {
   --color-neutral-muted: rgb(175 184 193 / 20%);
   --color-accent-fg: #ea5f20;
   --color-accent-emphasis: #ececec;
-  --color-accent-muted: rgb(84 174 255 / 40%);
+  --color-accent-muted: #ececec;
   --color-accent-subtle: #fff;
   --color-success-fg: #1a7f37;
   --color-attention-fg: #9a6700;
@@ -522,11 +522,6 @@ main .gsc-comment-header {
   color: #b9b9b9 !important;
 }
 
-.gsc-comment-box-buttons > button:nth-child(2):not(:disabled) {
-  color: #b9b9b9 !important;
-  background-color: #ea5f20 !important;
-}
-
 .btn-primary:not(:disabled) {
   color: #fff !important;
   background-color: #ea5f20 !important;
@@ -545,4 +540,13 @@ main .gsc-comment-header {
   border-bottom-right-radius: 16px;
   padding: 12px;
   color: #555;
+}
+
+.gsc-comment-author > a:nth-child(3) {
+  color: #555;
+  border-color: #ececec;
+}
+
+.gsc-social-reaction-summary-item.has-reacted:hover:enabled {
+  background-color: #ececec;
 }
