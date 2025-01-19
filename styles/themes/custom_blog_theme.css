@@ -551,3 +551,6 @@ main .gsc-comment-header {
   background-color: #ececec;
 }
 
+.gsc-comment-box-bottom {
+  margin: 12px 0;
+}
